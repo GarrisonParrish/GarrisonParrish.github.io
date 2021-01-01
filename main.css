@@ -1,0 +1,54 @@
+:root {  /* add constants to page root */
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  * {  /* The * symbol is a universal selector for all page elements (except where overrided by a more specific element selector */
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  
+  body {
+      background: var(--bg);
+  }
+
+/* ul is a selector (selects <ul> HTML element to apply styles) */
+ul {
+    font-family: helvetica;  /* key-value pair: font-family is a property name and helvetica is a value */
+}
+/* select <li> element from HTML page */
+li {
+    list-style: circle;
+  }
+
+  .list {
+    list-style: square;
+  }
+
+  .light-theme {  /* add .light-theme selector */
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+  
+  .dark-theme {  /* add .dark-theme selector */
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+  .btn {  /* button selector */
+    /* cool formatting */
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+  /* "pseudo-class selector that eliminates rectangular outline when button is selected (receives focus) */
+  .btn:focus { outline-style: none; }

@@ -1,1 +1,23 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>boring website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="light-theme">
+    <h1>Task List</h1>
+    <p id="msg">Current tasks:</p>
+    <ul>  <!-- unordered list -->
+        <li class="list">Add visual styles</li>
+        <li class="list">Add light and dark themes</li>
+        <li> Enable switching the theme</li>
+    </ul>
+    <div>
+        <button class="btn">Dark</button>
+    </div>
+    <!-- could be placed in the head or anywhere in the body, but placing it after allows the list to load before loading the script -->
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
