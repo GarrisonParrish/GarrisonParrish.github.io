@@ -38,7 +38,7 @@ li {
     --btnBg: var(--white);
     --btnFontColor: var(--black);
   }
-  .btn {  /* button selector */
+  .theme_switcher_btn {  /* button selector */
     /* cool formatting */
     position: absolute;
     top: 20px;
@@ -51,5 +51,5 @@ li {
     background-color: var(--btnBg);
   }
   /* "pseudo-class selector that eliminates rectangular outline when button is selected (receives focus) */
-  .btn:focus { outline-style: none; }
+  .theme_switcher_btn:focus { outline-style: none; }
 
