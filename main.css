@@ -52,3 +52,4 @@ li {
   }
   /* "pseudo-class selector that eliminates rectangular outline when button is selected (receives focus) */
   .btn:focus { outline-style: none; }
+

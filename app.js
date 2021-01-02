@@ -1,6 +1,6 @@
 'use strict'  // Activate strict mode, avoids making stupid assumptions like Garrison in a math class
 
-const switcher = document.querySelector('.btn');   // gets button reference
+const switcher = document.querySelector('.theme_switcher_btn');   // gets button reference
 
 switcher.addEventListener('click', function() {  // listener for click event--function  passed in is actual event handler
     document.body.classList.toggle('dark-theme')  // toggle method switches element to dark-theme class
