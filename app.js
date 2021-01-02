@@ -3,11 +3,11 @@
 const switcher = document.querySelector('.theme_switcher_btn');   // gets button reference
 
 switcher.addEventListener('click', function() {  // listener for click event--function  passed in is actual event handler
-    document.body.classList.toggle('dark-theme')  // toggle method switches element to dark-theme class
+    document.body.classList.toggle('mellow-theme')  // toggle method switches element to dark-theme class
 
     var className = document.body.className;
     if(className == "light-theme") {
-        this.textContent = "Dark";
+        this.textContent = "Mellow";
     }
     else {
         this.textContent = "Light";
