@@ -10,7 +10,7 @@
   COOL FONTS!
  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   */
-  
+
   * {  /* The * symbol is a universal selector for all page elements (except where overrided by a more specific element selector */
     color: var(--fontColor);
     font-family: helvetica;
@@ -39,10 +39,16 @@ li {
     --btnBg: var(--black);
     --btnFontColor: var(--white);
   }
-  
   .dark-theme {  /* add .dark-theme selector */
     --bg: var(--black);
     --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+  /* A really sexy and mellowed-out color scheme for cool people */
+  .mellow-theme {
+    --bg: var(--brown);
+    --fontColor: var(--beige);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
   }
