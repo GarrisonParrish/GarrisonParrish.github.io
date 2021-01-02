@@ -22,7 +22,7 @@
 
 /* ul is a selector (selects <ul> HTML element to apply styles) */
 ul {
-    font-family: helvetica;  /* key-value pair: font-family is a property name and helvetica is a value */
+    font-family: Arial;  /* key-value pair: font-family is a property name and helvetica is a value */
 }
 /* select <li> element from HTML page */
 li {
