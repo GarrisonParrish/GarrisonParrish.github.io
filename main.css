@@ -13,7 +13,7 @@
 
   * {  /* The * symbol is a universal selector for all page elements (except where overrided by a more specific element selector */
     color: var(--fontColor);
-    font-family: helvetica;
+    font-family: "Segoe UI;
   }
   
   body {
