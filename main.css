@@ -13,7 +13,7 @@
 
   * {  /* The * symbol is a universal selector for all page elements (except where overrided by a more specific element selector */
     color: var(--fontColor);
-    font-family: "Segoe UI";
+    font-family: helvetica;
   }
   
   body {
@@ -22,7 +22,7 @@
 
 /* ul is a selector (selects <ul> HTML element to apply styles) */
 ul {
-    font-family: Arial;  /* key-value pair: font-family is a property name and helvetica is a value */
+    font-family: arial;  /* key-value pair: font-family is a property name and helvetica is a value */
 }
 /* select <li> element from HTML page */
 li {
@@ -36,14 +36,8 @@ li {
   .light-theme {  /* add .light-theme selector */
     --bg: var(--white);
     --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-  }
-  .dark-theme {  /* add .dark-theme selector */
-    --bg: var(--black);
-    --fontColor: var(--white);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
+    --btnBg: var(--brown);
+    --btnFontColor: var(--beige);
   }
   /* A really sexy and mellowed-out color scheme for cool people */
   .mellow-theme {
@@ -52,18 +46,21 @@ li {
     --btnBg: var(--white);
     --btnFontColor: var(--black);
   }
-  .theme_switcher_btn {  /* button selector */
+  .theme-switcher-btn {  /* button selector */
     /* cool formatting */
     position: absolute;
     top: 20px;
     left: 250px;
-    height: 50px;
-    width: 50px;
-    border-radius: 75%;
-    border: none;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 5;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
   }
+  .about-btn {
+    color: var(--fontColor);
+    background-color: var(--bg);
+  }
   /* "pseudo-class selector that eliminates rectangular outline when button is selected (receives focus) */
-  .theme_switcher_btn:focus { outline-style: none; }
-
+  .theme-switcher-btn:focus { outline-style: none; }
